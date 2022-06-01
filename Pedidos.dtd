@@ -1,5 +1,5 @@
-<!ELEMENTListaPedidos (Pedido)+>
-        <!ELEMENT Pedido (Serie, Cantidad | Peso)>
-        <!ELEMENT Serie (#PCDATA))>
-        <!ELEMENT Cantidad (#PCDATA))>
-        <!ELEMENT Peso (#PCDATA))>
+<!ELEMENT ListaPedidos (Pedido)*>
+        <!ELEMENT Pedido (Serie, Cantidad, Peso?)>
+        <!ELEMENT Serie (#PCDATA)>
+        <!ELEMENT Cantidad (#PCDATA)>
+        <!ELEMENT Peso (#PCDATA)>
