@@ -3,12 +3,12 @@
 
 <ListaPedidos>
     <Pedido>
-        <Serie></Serie>
-        <Cantidad></Cantidad>
-        <Peso></Peso>
+        <Serie>1</Serie>
+        <Cantidad>12</Cantidad>
+        <Peso>50</Peso>
     </Pedido>
     <Pedido>
-        <Serie></Serie>
-        <Cantidad></Cantidad>
+        <Serie>2</Serie>
+        <Cantidad>30</Cantidad>
     </Pedido>
 </ListaPedidos>
